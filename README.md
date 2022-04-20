@@ -1,5 +1,5 @@
+# Chroot Linux(devuan) on Android (for ARM64 devices).
  
- Chroot Linux(devuan) on Android (for ARM64 devices).
 ![img](https://i.postimg.cc/MKBf4SqJ/Screenshot-from-2022-04-20-09-47-24.png)
 ## Tested on:
 1. YU Yureka Black (with android 11 custom rom and GSI )
