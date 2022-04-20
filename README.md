@@ -20,8 +20,8 @@
 7.     cd /data/local/leste
 8. If you want to mount the internal memory of Android (warning: it is not recommended because linux writes logs in storage so it kills R/W cycle), you can:
     mkdir sdcard
-### 2. Chrooting Maemo Leste.
-1.     wget 
+### 2. Chrooting Devuan.
+1.     wget https://raw.githubusercontent.com/AKhilRaghav0/debain_on_android/origin/chroot.sh
 2.     sh chroot.sh
 ### 3. Configuring usable Internet.
 1.     echo nameserver 8.8.8.8 > /etc/resolv.conf
@@ -63,9 +63,9 @@
 23. No more errors should be displayed. We ensure that some necessary applications are installed:
     -     apt install clock-ui alarmd applet-datetime hildon-base
 ### 5. Launching Devuan GUI: Hildon.
-1.     wget launch.sh /
+1.     wget https://raw.githubusercontent.com/AKhilRaghav0/debain_on_android/origin/launch_gui.sh /
 2. Open "XSDL XServer" Android app in landscape mode or portrait mode.
-3.     sh /launchMaemo.sh
+3.     sh /launch_gui.sh
 4. Devuan is started. Now you can open and install apps using osso-xterm. Audio should work too. You can install chromium or firefox-esr, browse to youtube and check if audio works. 
 ### 6. Enabling Hildon application manager: installing "dummy network"
 1. From osso-xterm:
