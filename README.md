@@ -5,7 +5,7 @@
 1. YU Yureka Black (with android 11 custom rom and GSI )
 ## Requirements.
 1. Rooted Android device.
-2. Busybox installed. I recommend "Busybox" app by Stephen (Stericson).
+2. Busybox installed. I recommend "[Busybox](https://play.google.com/store/apps/details?id=stericson.busybox&hl=en&gl=US)" app by Stephen (Stericson).
 3. A terminal for Android. For example "[Termux](https://github.com/termux/termux-app/releases/tag/v0.118.0)" app or "Terminal Emulator for Android" app or Default local terminal by lineage. [or [ADB](https://developer.android.com/studio/command-line/adb) shell with root access]
 4. "[XSDL XServer](https://play.google.com/store/apps/details?id=x.org.server&hl=en&gl=US)" app.
 5. ARM64 Maemo Leste image(based on debian). This tutorial use maemo-leste-1.0-arm64-raspi3-20200114.tar.gz, the latest image downloaded from  https://maedevu.maemo.org/images/arm64-generic/
